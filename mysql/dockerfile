@@ -1,2 +1,2 @@
 FROM mysql:8.0
-COPY schema.sql /docker-entrypoint-initdb.b/
+COPY niha.sql /docker-entrypoint-initdb.b/
